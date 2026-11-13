@@ -1,7 +1,7 @@
 """Generate A6 landscape product fact sheet PDFs with GHS pictograms and an optional ADR panel.
 
 Usage:
-    python generate_factsheets.py products.json [-o output_dir]
+    python generate_factsheets.py -p products.json [-o output_dir]
 
 products.json format (array of objects):
     [
@@ -141,7 +141,9 @@ def filename_stem(name: str) -> str:
 
 def main():
     parser = argparse.ArgumentParser(description="Generate A6 landscape product fact sheet PDFs.")
-    parser.add_argument("products", type=Path, help="JSON file containing product data")
+    parser.add_argument(
+        "-p", "--products", required=True, type=Path, help="JSON file containing product data"
+    )
     parser.add_argument(
         "-o", "--output", type=Path, default=Path("generated_factsheets"), help="Output directory"
     )

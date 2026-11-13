@@ -25,14 +25,14 @@ python -m pip install -r requirements.txt
 Generate fact sheets from the example products:
 
 ```powershell
-python generate_factsheets.py products_example.json
+python generate_factsheets.py -p products_example.json
 ```
 
 PDFs are written to `generated_factsheets` by default. Choose a different
 output directory with:
 
 ```powershell
-python generate_factsheets.py products_halloween.json -o halloween_output
+python generate_factsheets.py -p products_example.json -o custom_output
 ```
 
 The output directory is created if it does not exist. Existing PDFs with the
@@ -65,7 +65,6 @@ sheets. Pictogram sources are listed in its
 
 - `generate_factsheets.py`: PDF generation command-line tool.
 - `products_example.json`: sample chemical products.
-- `products_halloween.json`: fictional sample products.
 - `hazard_pictograms/`: GHS pictogram images.
 
 Generated PDFs are excluded from the repository.
