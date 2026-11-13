@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Acetone",
+    "description": "Colorless, highly flammable liquid. Causes serious eye irritation. May cause drowsiness or dizziness. Keep away from ignition sources.",
+    "pictograms": ["GHS02", "GHS07"],
+    "hazard_number": "33",
+    "un_number": "1090"
+  },
+  {
+    "name": "Hydrochloric Acid 33%",
+    "description": "Corrosive aqueous solution. Causes severe skin burns and eye damage. May cause respiratory irritation.",
+    "pictograms": ["GHS05", "GHS07"],
+    "hazard_number": "80",
+    "un_number": "1789"
+  },
+  {
+    "name": "Ethanol 96%",
+    "description": "Colorless, highly flammable liquid. Causes serious eye irritation. Keep away from heat, sparks, and open flames.",
+    "pictograms": ["GHS02", "GHS07"],
+    "hazard_number": "33",
+    "un_number": "1170"
+  },
+  {
+    "name": "Caustic Soda 30%",
+    "description": "Sodium hydroxide solution. Causes severe skin burns and eye damage. May be corrosive to metals.",
+    "pictograms": ["GHS05"],
+    "hazard_number": "80",
+    "un_number": "1824"
+  },
+  {
+    "name": "Methanol",
+    "description": "Highly flammable liquid. Toxic if swallowed, inhaled, or in contact with skin. May cause damage to organs, including the optic nerve.",
+    "pictograms": ["GHS02", "GHS06", "GHS08"],
+    "hazard_number": "336",
+    "un_number": "1230"
+  },
+  {
+    "name": "Bleach",
+    "description": "Sodium hypochlorite solution. Causes severe skin burns and eye damage. Very toxic to aquatic life. Never mix with acids (chlorine gas may be released).",
+    "pictograms": ["GHS05", "GHS09"],
+    "hazard_number": "80",
+    "un_number": "1791"
+  },
+  {
+    "name": "Propane",
+    "description": "Extremely flammable gas, liquefied under pressure. May explode if heated. Store in a well-ventilated place away from sunlight.",
+    "pictograms": ["GHS02", "GHS04"],
+    "hazard_number": "23",
+    "un_number": "1978"
+  },
+  {
+    "name": "Gasoline",
+    "description": "Extremely flammable liquid. May be fatal if swallowed and enters airways. Suspected of causing cancer. Toxic to aquatic life.",
+    "pictograms": ["GHS02", "GHS07", "GHS08", "GHS09"],
+    "hazard_number": "33",
+    "un_number": "1203"
+  }
+]
